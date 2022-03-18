@@ -11,7 +11,6 @@ export default function Intro({setShowData}) {
         setTimeout(()=>{
             setShowData(true)
         }, 200)
-        
     }
     return (
     <div className={styles.ms+show}>
