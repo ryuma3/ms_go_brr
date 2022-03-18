@@ -1,0 +1,66 @@
+.ms
+    opacity: 0.6
+    position: absolute
+    z-index: 20
+    font-family: Cinzel-Decorative
+    width: 100vw
+    height: 100vh
+    z-index: 100
+    color: #fff
+    font-size: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+
+.cont
+    z-index: 20
+    font-family: Cinzel-Decorative
+    width: 100vw
+    height: 100px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+
+.gen
+    z-index: 20
+    font-family: Cinzel-Decorative
+    font-size: 80px
+    border-radius: 15px
+    padding: 7px 20px 10px 20px
+    z-index: 101
+    color: #fff
+    background: none
+    border: 2px white solid
+    transition-duration:  400ms
+
+    &:hover
+        
+        cursor: pointer
+        color: #000
+        background: #fff
+        border: 2px white solid
+        transition-duration:  400ms
+.show
+    //display: flex
+    opacity: 0.8
+    transition: 2000ms
+    
+    &:hover
+        opacity: 0.9
+
+.fade
+    //display: none
+    opacity: 0
+    transition: 2000ms
+
+.fadeD
+    transition-duration:  2000ms !important
+    transform: translateY(100px)
+    
+.fadeU
+    transition-duration:  2000ms !important
+    transform: translateY(-100px)
